@@ -7,5 +7,5 @@ Features:
 - Speech input/output
 
 How to use:
-- pip install -r requirements.txt
+- run make install_requirements
 - run main.py
