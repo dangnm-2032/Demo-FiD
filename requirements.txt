@@ -10,3 +10,4 @@ sounddevice==0.4.6
 torch==2.1.0
 transformers==4.34.1
 farm-haystack[faiss]
+langdetect
