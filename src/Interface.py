@@ -105,7 +105,7 @@ def run():
                     show_copy_button=True,
                     scale=15
                 )
-                voice = gr.Audio(source='microphone', type='filepath')
+                voice = gr.Audio(source='microphone', type='numpy')
 
             debug = gr.Textbox(
                 label="Document Retriever",
