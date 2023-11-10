@@ -277,7 +277,7 @@ def run():
         
     demo.queue()
     try:
-        demo.launch(server_name='0.0.0.0')
+        demo.launch(server_name='0.0.0.0', share=True)
     except KeyboardInterrupt:
         tmp_path = "src/tmp"
         tmp_files = os.listdir(tmp_path)
