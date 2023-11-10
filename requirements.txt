@@ -1,0 +1,11 @@
+accelerate==0.22.0
+datasets==2.14.6
+django_haystack==3.2.1
+gradio==3.50.0
+librosa==0.10.1
+numpy==1.23.5
+pandas==2.1.2
+sentence_transformers==2.2.2
+sounddevice==0.4.6
+torch==2.1.0+rocm5.6
+transformers==4.32.1
