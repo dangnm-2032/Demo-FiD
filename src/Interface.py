@@ -22,8 +22,8 @@ model = GenerativeQA(
 audio_model = AudioModel(
     s2t_model_name_or_path="facebook/wav2vec2-conformer-rel-pos-large-960h-ft",
     t2s_model_name_or_path="suno/bark-small",
-    s2t_is_gpu=False,
-    t2s_is_gpu=False  
+    s2t_is_gpu=True,
+    t2s_is_gpu=True  
 )
 
 def run():
